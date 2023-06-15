@@ -120,47 +120,6 @@ type_incorrect_long = "The filename of the changelog entry must be of the form `
 
 [tool.ruff]
 target-version = "py39"
-extend-select = [
-  "A", # flake8-builtins
-  "ARG", # flake8-unused-arguments
-  "B", # flake8-bugbear
-  "BLE", # flake8-blind-except
-  "C4", # flake8-comprehensions
-  "C90", # mccabe
-  "COM818", # trailing-comma-on-bare-tuple
-  "D", # pydocstyle
-  "FA", # flake8-future-annotations
-  "FBT003", # flake8-boolean-trap
-  "FLY", # flynt
-  "ICN", # flake8-import-conventions
-  "INP", # flake8-no-pep420
-  "INT", # flake8-gettext
-  "ISC", # flake8-implicit-str-concat
-  "N", # pep8-naming
-  "NPY", # numpy-deprecated-type-alias
-  "PD", # pandas-vet
-  "PGH", # pygrep-hooks
-  "PIE", # flake8-pie
-  "PLC", # pylint convention
-  "PLE", # pylint errors
-  "PLR", # pylint refactorings
-  "PLW", # pylint warnings
-  "PT", # flake8-pytest-style
-  "PTH", # flake8-use-pathlib
-  "PYI", # flake8-pyi
-  "RUF005", # collection-literal-concatenation
-  "RUF006", # asyncio-dangling-task
-  "RUF007", # pairwise-over-zipped
-  "RUF008", # mutable-dataclass-default
-  "RUF009", # function-call-in-dataclass-default-argument
-  "RUF010", # explicit-f-string-type-conversion
-  "S", # flake8-bandit
-  "SIM", # flake8-simplify
-  "TID", # flake8-tidy-imports
-  "TRY", # tryceratops
-  "UP", # pyupgrade
-  "W", # pycodestyle warnings
-]
 ignore = [
   "B028", # no-explicit-stacklevel
   "D105", # undocumented-magic-method (enable later?)
